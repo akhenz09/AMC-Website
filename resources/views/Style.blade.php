@@ -28,6 +28,9 @@
     </head>
 <style>
 /* Make the image fully responsive */
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
     
     /* Carousel */
             .carousel-inner img {
