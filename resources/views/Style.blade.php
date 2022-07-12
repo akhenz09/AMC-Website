@@ -237,6 +237,9 @@
                     image-resolution: 100%;
                   }
             .about{ margin-bottom: 20px; }
+            .carousel-item {
+                margin-bottom: 20px;
+            }
     }
     
 </style>
