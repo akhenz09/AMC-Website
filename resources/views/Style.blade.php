@@ -141,7 +141,7 @@
             font-size: 30px;
             font-weight: 600;
             line-height: 20px;
-            margin: 0 0 20px;
+            margin: 0 0 5px;
             display: block;
             transition: all 0.3s ease 0s;
             }
@@ -161,7 +161,9 @@
             border-left-color: #4accdb;
             }
             @media screen and (max-width:990px){
-            .counter{ margin-bottom: 10px; }
+            .counter{ margin-bottom: 50px; 
+                    margin-top: 10px;
+                    }
             
             }
             
