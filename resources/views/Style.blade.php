@@ -28,9 +28,7 @@
     </head>
 <style>
 /* Make the image fully responsive */
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
-}
+
     
     /* Carousel */
             .carousel-inner img {
@@ -161,6 +159,9 @@
             .counter.blue:after{
             border-bottom-color: #4accdb;
             border-left-color: #4accdb;
+            }
+            @media screen and (max-width:990px){
+            .counter{ margin-bottom: 40px; }
             }
     
     /* Fact Counter END CSS*/
