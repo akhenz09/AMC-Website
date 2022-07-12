@@ -43,6 +43,8 @@
         .carousel-item,
         .carousel-item.active {
         height: 100vh;   
+        overflow: hidden;
+        position: relative;
         
             }      
 
