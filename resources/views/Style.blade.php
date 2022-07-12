@@ -161,7 +161,7 @@
             border-left-color: #4accdb;
             }
             @media screen and (max-width:990px){
-            .counter{ margin-bottom: 40px; }
+            .counter{ margin-bottom: 10px; }
             
             }
             
@@ -185,6 +185,10 @@
 
 .about {
     margin-bottom: 10%;
+
+}
+.img-7 {
+    position: relative;
 }
     /* About CSS end*/
     
@@ -227,7 +231,9 @@
     /*** Product END CSS ***/
     
     @media screen and (max-width:990px){
-        .img-twice{ margin-bottom: 20px; }
+        .img-twice{ margin-bottom: 20px; 
+                    image-resolution: 100%;
+                  }
             .about{ margin-bottom: 20px; }
     }
     

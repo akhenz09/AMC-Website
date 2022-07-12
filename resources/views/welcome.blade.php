@@ -147,10 +147,10 @@
             <div class="col-lg-6" data-aos="fade-down-left" data-aos-once="true">
                 <div class="row img-twice position-relative h-100">
                     <div class="col-6">
-                        <img class="img-fluid rounded" src="img/2.svg" alt="" loading="lazy">
+                        <img class="img-fluid rounded img-7 mx-auto d-block" src="img/2.svg" alt="" loading="lazy">
                     </div>
                     <div class="col-6 align-self-end">
-                        <img class="img-fluid rounded" src="img/1.svg" alt="" loading="lazy">
+                        <img class="img-fluid rounded img-7 mx-auto d-block" src="img/1.svg" alt="" loading="lazy">
                     </div>
                 </div>
             </div>
