@@ -162,7 +162,9 @@
             }
             @media screen and (max-width:990px){
             .counter{ margin-bottom: 40px; }
+            
             }
+            
     
     /* Fact Counter END CSS*/
 
@@ -224,6 +226,10 @@
             }
     /*** Product END CSS ***/
     
+    @media screen and (max-width:990px){
+        .img-twice{ margin-bottom: 20px; }
+            .about{ margin-bottom: 20px; }
+    }
     
 </style>
 
