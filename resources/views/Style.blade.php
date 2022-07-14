@@ -122,10 +122,6 @@
 
       @media (min-width: 992px) {
 
-#demo 
-{
-margin-top: -100.59px;
-}
       }
     /* Carousel */
     
