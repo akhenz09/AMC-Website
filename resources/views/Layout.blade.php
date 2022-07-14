@@ -4,11 +4,13 @@
 <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
   <img src="img/logo.svg" class="logo">
   <a class="navbar-brand px-2 py-0 " href="#">AMC</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
+      <div class="bar4"></div>
   </button>
+
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav mx-auto">
           <li class="nav-item">
