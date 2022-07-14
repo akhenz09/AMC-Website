@@ -25,6 +25,11 @@
 
 <!-- BS4 end -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+
 <!-- AOS -->
     <!--<link rel="stylesheet" href="aos-by-red.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
@@ -43,42 +48,87 @@
 /* Page Header End */
 
 /* NavBar */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
+.navbar {
+    background: #242424b0;
+    padding: 10px 20px
+  }
+  
+  .navbar-background {
+    padding: 2px 20px;
+  }
+  
+  .navbar-brand {
+    color: #eaf0ee;
+    border: 3px solid #f50e0681;
+    font-size: 30px;
+  }
+  
+  .navbar-brand:hover {
+    background: #ff5f5793;
+    color: #242424;
+  }
+  
+  .navbar-toggler {
+    border: 3px solid #ff5f579c;
+    padding: 3px;
+  
+  }
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
-  color: #fff;
-}
-
-/* Color of the navbar AFTER scroll */
-.navbar-scroll,
-.navbar-scrolled {
-  background-color: #cbbcb1;
-}
-
-.mask-custom {
-  backdrop-filter: blur(5px);
-  background-color: rgba(165, 132, 26, 0.548);
-}
-
-.navbar-brand {
-  font-size: 2rem;
-  letter-spacing: 3px;
-}
-
-.menu-icon {
-    width: 25px;
+  .logo {
+    width: 80px;
     cursor: pointer;
-    display: none;
-    position: absolute;
-    left: 89%;
-}
+    margin: 40px 0; 
+    padding-right: 10px;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #ff5e57;
+  }
+  
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    transform: rotate(45deg) translate(-5px, -8px);
+  }
+  
+  
+  
+  
+  .nav-link {
+    color: #f1fffa;
+    font-size: 25px;
+    padding: 10px 20px!important;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background: #ff5e57;
+    color: #f1fffa;
+  
+  }
+  
+  .nav-active {
+    color: #f1fffa;
+    font-size: 20px;
+    padding: 10px 20px!important;
+    border-radius: 5px;
+    background: rgba(253, 5, 5, 0.952);
+  }
+  
+  .nav-active:hover {
+    background: #ff5e57;
+  }
 
 /* NavBar End */
     
@@ -135,9 +185,7 @@
         background-position: center center;
       } 
 
-      @media (min-width: 992px) {
-
-      }
+      
     /* Carousel */
     
     /* Fact Counter CSS */
