@@ -10,7 +10,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
 <!-- AOS -->
     <!--<link rel="stylesheet" href="aos-by-red.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
@@ -57,6 +56,15 @@
   font-size: 2rem;
   letter-spacing: 3px;
 }
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 89%;
+}
+
 /* NavBar End */
     
     /* Carousel */
@@ -74,8 +82,6 @@
         .carousel-item.active {
         height: 100vh;   
             }      
-
-        
 
       .carousel-item:nth-child(1) {
         background-image: url('/img/1.svg' );
@@ -262,13 +268,11 @@
     /*** Product END CSS ***/
     
     @media screen and (max-width:990px){
-        .img-twice{ margin-bottom: 20px; 
-                    image-resolution: 100%;
-                  }
             .about{ margin-bottom: 20px; }
             .carousel-item {
                 margin-bottom: 20px;
             }
+            
     }
     
 </style>

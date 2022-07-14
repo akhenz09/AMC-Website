@@ -45,7 +45,7 @@
             </a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link Ref" href="https://twitter.com/ple_reap">
+            <a class="nav-link" href="https://twitter.com/ple_reap">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
