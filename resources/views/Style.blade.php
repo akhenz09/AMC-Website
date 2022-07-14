@@ -25,8 +25,7 @@
 
 <!-- BS4 end -->
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="app.js"></script>
+
 
 <!-- AOS -->
     <!--<link rel="stylesheet" href="aos-by-red.css">
@@ -128,6 +127,8 @@
   .nav-active:hover {
     background: #ff5e57;
   }
+
+  
 
 /* NavBar End */
     

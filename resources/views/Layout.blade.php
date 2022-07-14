@@ -16,8 +16,8 @@
           <li class="nav-item">
               <a class="nav-link m-2 text-capitalize" href="/">Home</a>
           </li>
-          <div class="dropdown">
-            <a class="nav-link m-2 text-capitalize dropdown-toggle" data-toggle="dropdown">
+          <div class="nav-item dropdown">
+            <a class="nav-link m-2 text-capitalize dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
               About
             </a>
             <div class="dropdown-menu">
