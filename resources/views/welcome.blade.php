@@ -22,13 +22,18 @@
       <div class="carousel-inner">
             <!-- Single item -->
             <div class="carousel-item active" loading="lazy">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
                 <div class="d-flex justify-content-center align-items-center h-100">
                   <div class="text-white text-center">
+                                <p class="text-primary text-uppercase fw-bold mb-2"></p>
+                                <h1 class="display-1 text-light mb-4">Enroll now</h1>
+                                <p class="text-light fs-5 mb-4 pb-3"></p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                            </div>
+                        </div>
                   </div> 
                 </div>
-              </div>
-            </div>
+            
     
             <!-- Single item -->
             <div class="carousel-item" loading="lazy">
@@ -42,7 +47,7 @@
     
             <!-- Single item -->
             <div class="carousel-item" loading="lazy">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.2);">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
                 <div class="d-flex justify-content-center align-items-center h-100">
                   <div class="text-white text-center">
                   </div>
@@ -51,7 +56,7 @@
             </div>
             <!-- Single item -->
             <div class="carousel-item" loading="lazy">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.2);">
                 <div class="d-flex justify-content-center align-items-center h-100">
                   <div class="text-white text-center">
                   </div>
@@ -78,7 +83,7 @@
 
 
     <!-- Carousel Controls-->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <a class="carousel-control-prev ccontrols" href="#demo" data-slide="prev">
               <span class="carousel-control-prev-icon"></span>
             </a>
             <a class="carousel-control-next" href="#demo" data-slide="next">

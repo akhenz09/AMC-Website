@@ -24,11 +24,53 @@
         <script   script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- BS4 end-->
+<!-- AOS -->
+    <!--<link rel="stylesheet" href="aos-by-red.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
+<!-- AOS end -->
 
     </head>
 <style>
 /* Make the image fully responsive */
 
+/* Page Header */
+.page-header {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/1.png) center center no-repeat;
+    background-size: cover;
+}
+/* Page Header End */
+
+/* NavBar */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(165, 132, 26, 0.548);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+/* NavBar End */
     
     /* Carousel */
             .carousel-inner img {
@@ -36,6 +78,7 @@
           height: 100%;
           
             }
+            
 
     /* HomePage Carousel */
       #introCarousel,
@@ -43,9 +86,6 @@
         .carousel-item,
         .carousel-item.active {
         height: 100vh;   
-        overflow: hidden;
-        position: relative;
-        
             }      
 
         
