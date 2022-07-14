@@ -268,6 +268,12 @@
     /*** Product END CSS ***/
     
     @media screen and (max-width:990px){
+        .img-twice{ margin-bottom: 20px; 
+                    image-resolution: 100%;
+                  }
+        .about-twice{ margin-bottom: 20px; 
+                    image-resolution: 100%;
+                  }
             .about{ margin-bottom: 20px; }
             .carousel-item {
                 margin-bottom: 20px;

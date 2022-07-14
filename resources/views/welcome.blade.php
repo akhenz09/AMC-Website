@@ -159,7 +159,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-down-right" data-aos-once="true">
+            <div class="col-lg-6 about-twice" data-aos="fade-down-right" data-aos-once="true">
                     <p class="text-primary text-uppercase mb-2">// About Us</p>
                     <h1 class="display-6 mb-4">AMC PROGRAMS</h1>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
