@@ -41,6 +41,7 @@
 
 /* Page Header */
 .page-header {
+  margin-top: 3rem;
     margin-bottom: 6rem;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/1.png) center center no-repeat;
     background-size: cover;
@@ -50,7 +51,7 @@
 /* NavBar */
 .navbar {
     background: #242424b0;
-    padding: 10px 20px
+    
   }
   
   .navbar-background {
@@ -77,7 +78,6 @@
   .logo {
     width: 80px;
     cursor: pointer;
-    margin: 40px 0; 
     padding-right: 10px;
   }
   
@@ -102,8 +102,17 @@
     transform: rotate(45deg) translate(-5px, -8px);
   }
   
-  
-  
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  .dropdown-menu {
+    background: #ff5e57;
+    color: #fff;
+  }
+  .dropdown-item{
+    color: #fff;
+  }
   
   .nav-link {
     color: #f1fffa;

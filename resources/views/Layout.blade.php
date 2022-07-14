@@ -12,21 +12,31 @@
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-              <a class="nav-link m-2 text-capitalize nav-active" href="#header">Home</a>
+              <a class="nav-link m-2 text-capitalize" href="/">Home</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link m-2 text-capitalize" href="#skills">About</a>
-          </li>
+          <div class="dropdown">
+            <a class="nav-link m-2 text-capitalize dropdown-toggle" data-toggle="dropdown">
+              About
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="welcome">Welcome</a>
+              <a class="dropdown-item" href="News & Announcement">News & Announcement</a>
+              <a class="dropdown-item" href="Mission">Mission</a>
+              <a class="dropdown-item" href="Vision">Vision</a>
+              <a class="dropdown-item" href="Our Team">Our Team</a>
+              
+            </div>
+          </div>
 
           <li class="nav-item">
-              <a class="nav-link m-2 text-capitalize" href="#about">Program</a>
+              <a class="nav-link m-2 text-capitalize" href="Programs">Programs</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link m-2 text-capitalize" href="#projects">Program Feature</a>
+              <a class="nav-link m-2 text-capitalize" href="Programs Features">Program Features</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link m-2 text-capitalize" href="#posts">Subscribe now</a>
-          </li>
+            <a class="nav-link m-2 text-capitalize" href="Subscribe Now">Subscribe now</a>
+        </li>
 
           </li>
       </ul>

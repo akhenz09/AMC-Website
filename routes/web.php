@@ -15,10 +15,10 @@ use App\Http\Controllers\itemController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-Route::get('/Home', function () {
-    return view('Home');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/welcome', function () {
@@ -63,6 +63,10 @@ Route::get('/Programs item', function () {
 
 Route::get('/Signup', function () {
     return view('Signup');
+});
+
+Route::get('/Subscribe Now', function () {
+    return view('Subscribe Now');
 });
 
 
