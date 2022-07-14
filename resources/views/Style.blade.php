@@ -119,6 +119,14 @@
         background-size: cover;
         background-position: center center;
       } 
+
+      @media (min-width: 992px) {
+
+#demo 
+{
+margin-top: -100.59px;
+}
+      }
     /* Carousel */
     
     /* Fact Counter CSS */
@@ -266,15 +274,7 @@
             opacity: 1;
             }
     /*** Product END CSS ***/
-    
-    @media screen and (max-width:990px){
-       
-            .carousel-item {
-                margin-bottom: 20px;
-            }
-            
-    }
-    
+  
 </style>
 
 @yield('style')
