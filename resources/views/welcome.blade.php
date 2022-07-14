@@ -16,9 +16,7 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
       </div>
-    <!-- The slideshow/carousel -->
-    
-      
+    <!-- The slideshow/carousel -->  
       <div class="carousel-inner">
             <!-- Single item -->
             <div class="carousel-item active" loading="lazy">
