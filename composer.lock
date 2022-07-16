@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5aa33c4c9c59a25291445d8226153066",
+    "content-hash": "739b9730fb098dc6dc01f90cf2af359e",
     "packages": [
         {
             "name": "brick/math",
@@ -895,16 +895,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.19.0",
+            "version": "v9.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "bbce25bd823133f6a5a724f2d62680b711f1d0df"
+                "reference": "c99868f1c9bf2f5d250993121838db905591864f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/bbce25bd823133f6a5a724f2d62680b711f1d0df",
-                "reference": "bbce25bd823133f6a5a724f2d62680b711f1d0df",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c99868f1c9bf2f5d250993121838db905591864f",
+                "reference": "c99868f1c9bf2f5d250993121838db905591864f",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1070,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-06-28T14:33:19+00:00"
+            "time": "2022-07-13T13:26:22+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -1597,6 +1597,76 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
+        },
+        {
+            "name": "luigel/laravel-paymongo",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/luigel/laravel-paymongo.git",
+                "reference": "7329fd4b06b6177603bdf6402f09406cc5d7e17d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/luigel/laravel-paymongo/zipball/7329fd4b06b6177603bdf6402f09406cc5d7e17d",
+                "reference": "7329fd4b06b6177603bdf6402f09406cc5d7e17d",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "illuminate/support": "^8.0|^9.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0|^7.0",
+                "pestphp/pest": "^1.20",
+                "pestphp/pest-plugin-parallel": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Luigel\\Paymongo\\PaymongoServiceProvider"
+                    ],
+                    "aliases": {
+                        "Paymongo": "Luigel\\Paymongo\\Facades\\Paymongo"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Luigel\\Paymongo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rigel Kent Carbonel",
+                    "email": "rigel20.kent@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A laravel wrapper for Paymongo API",
+            "homepage": "https://github.com/luigel/laravel-paymongo",
+            "keywords": [
+                "credit-cards",
+                "debit-cards",
+                "gcash",
+                "grabcar",
+                "laravel",
+                "laravel-paymongo",
+                "luigel",
+                "payment-gateway",
+                "paymongo"
+            ],
+            "support": {
+                "issues": "https://github.com/luigel/laravel-paymongo/issues",
+                "source": "https://github.com/luigel/laravel-paymongo/tree/v2.2.0"
+            },
+            "time": "2022-03-20T04:59:30+00:00"
         },
         {
             "name": "monolog/monolog",

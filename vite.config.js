@@ -6,6 +6,12 @@ export default defineConfig({
         laravel([
             'resources/css/app.css',
             'resources/js/app.js',
-        ]),
+        ], {
+            refresh: true,
+        }),
     ],
+    server: {
+        https: true,
+        host: 'localhost',
+    },
 });

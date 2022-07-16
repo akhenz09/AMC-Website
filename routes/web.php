@@ -1,8 +1,10 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\userController;
 use App\Http\Controllers\itemController;
+use App\Http\Controllers\userController;
+use App\Http\Controllers\PaymentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -65,10 +67,9 @@ Route::get('/Signup', function () {
     return view('Signup');
 });
 
-Route::get('/Subscribe Now', function () {
-    return view('Subscribe Now');
+Route::get('/subscribe', function () {
+    return view('subscribe');
 });
-
 
 Route::post('/acceptRegistration', [userController::class, 'saveRegistration'])->name('saveRegistration');
 
@@ -89,3 +90,28 @@ Route::get('/editItem/{id}', [itemController::class, 'editItem'])->name('itemRec
 Route::post('/updateItem/{id}', [itemController::class, 'updateItem'])->name('itemRecords.updateItem');
 
 Route::post('/deleteItem/{id}', [itemController::class, 'deleteItem'])->name('itemRecords.deleteItem');
+
+Route::get('payment', function(Request $request){
+    return view('payment');
+});
+
+// Paymongo Routes
+Route::controller(PaymentController::class)->group(function () {
+    // PayMongo Webhooks
+    // Attach a middleware to all web hooks to validate
+    // that the request really came from PayMongo.
+    Route::post('webhooks/source-chargeable', 'createGCashPayment')
+         ->middleware('paymongo.signature:source_chargeable');
+
+    Route::post('webhooks/payment-paid', 'handlePaymentReceived')
+         ->middleware('paymongo.signature:payment_paid');
+
+    Route::post('webhooks/payment-failed', 'handlePaymentFailed')
+         ->middleware('paymongo.signature:payment_failed');
+    //: PayMongo Webhooks
+
+    // Card payment routes
+    Route::post('process-card-payment', 'processCardPayment');
+    Route::post('payment-response', 'responseHandler');
+    //: Card payment routes
+});

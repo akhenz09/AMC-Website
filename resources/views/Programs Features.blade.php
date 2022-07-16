@@ -1,5 +1,5 @@
-@extends('Layout')
-@section('content')
+@extends('templates.master')
+@section('contents')
 
 <!-- Page Header Start -->
 <div class="container page-header">
