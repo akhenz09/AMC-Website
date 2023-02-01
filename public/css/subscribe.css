@@ -1,0 +1,232 @@
+/* Enroll now */
+
+.Subs {
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+  /* Enroll now */
+
+
+.EnrollHeading {
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.paymentcreditlHeading {
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.paymentqrHeading {
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+
+
+.subscarousel {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: linear-gradient(135deg, rgb(240, 162, 45) 0%, rgb(221, 224, 42) 40%, rgb(255, 145, 0) 100%);
+
+}
+
+.imgtestimony {
+    width: 50%;
+    object-fit: cover;
+}
+
+.subscarouselmobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .subscarouselmobile {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background: linear-gradient(135deg, rgb(240, 162, 45) 0%, rgb(221, 224, 42) 40%, rgb(255, 145, 0) 100%);
+    }
+
+    .subscarousel {
+        display: none;
+    }
+}
+
+
+.enroll {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 0px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1
+}
+
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: #2e1fff
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: #2e1fff;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: #cad0de
+}
+
+.pricingTable:hover .month,
+.pricingTable:hover .price-value,
+.pricingTable:hover .pricingTable-header i {
+    color: #fff
+}
+
+.pricingTable .heading {
+    font-size: 24px;
+    color: #2e1fff;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #0055ff
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #2e1fff;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #2e1fff
+}
+
+.pricingTable.blue .heading,
+.pricingTable.blue .price-value {
+    color: #ff66c4
+}
+
+.pricingTable.blue .pricingTable-signup a,
+.pricingTable.blue:hover .pricingTable-header {
+    background: #ff66c4
+}
+
+.pricingTable.blue .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ff66c4
+}
+
+.pricingTable.green .heading,
+.pricingTable.green .price-value {
+    color: #008037
+}
+
+.pricingTable.green .pricingTable-signup a,
+.pricingTable.green:hover .pricingTable-header {
+    background: #008037
+}
+
+.pricingTable.green .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #008037
+}
+
+.pricingTable.orange .heading,
+.pricingTable.orange .price-value {
+    color: #ffbd59
+}
+
+.pricingTable.orange .pricingTable-signup a,
+.pricingTable.orange:hover .pricingTable-header {
+    background: #ffbd59
+}
+
+.pricingTable.orange .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ffbd59
+}
+
+.pricingTable.red .heading,
+.pricingTable.red .price-value {
+    color: #ff0015
+}
+
+.pricingTable.red .pricingTable-signup a,
+.pricingTable.red:hover .pricingTable-header {
+    background: #ff0015
+}
+
+.pricingTable.red .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ff0015
+}
+
+.pricingTable.blue:hover .price-value, month,
+.pricingTable.red:hover .price-value, month,
+.pricingTable.orange:hover .price-value, month,
+.pricingTable.green:hover .price-value, month {
+    color: #fff
+}
+
+.pricingTable, .pricingTable.blue, .pricingTable.red, .pricingTable.orange, .pricingTable.green {
+    width: 280px;
+
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+}

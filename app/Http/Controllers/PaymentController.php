@@ -34,20 +34,25 @@ class PaymentController extends Controller
         $payment_intent = $paymentIntent->getAttributes();
 
         // 2. Create a payment method using customers card info (cc number, expiry date, cvc/cvv) in PayMongo API.
-        $paymentMethod = Paymongo::paymentMethod()->create([
-            'type' => 'card',
-            'details' => [
-                'card_number' => $request->card_number,
-                'exp_month' => (int) $request->card_exp_month,
-                'exp_year' => (int) $request->card_exp_year,
-                'cvc' => $request->cvc,
-            ],
-            'billing' => [
-                'name' => $request->fullname,
-                'email' => $request->email,
-                'phone' => $request->phone
-            ],
-        ]);
+        try {
+            //code...
+            $paymentMethod = Paymongo::paymentMethod()->create([
+                'type' => 'card',
+                'details' => [
+                    'card_number' => $request->card_number,
+                    'exp_month' => (int) $request->card_exp_month,
+                    'exp_year' => (int) $request->card_exp_year,
+                    'cvc' => $request->cvc,
+                ],
+                'billing' => [
+                    'name' => $request->fullname,
+                    'email' => $request->email,
+                    'phone' => $request->phone
+                ],
+            ]);
+        } catch (\Exception $e) {
+            return back()->with('status', 'Something went wrong, kindly check your credit/debit card details.');
+        }
 
         try {
             // 3. Attach the payment method to the payment intent to finally make to payment.

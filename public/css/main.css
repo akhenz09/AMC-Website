@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.curved svg {
+    display: block;
+}
+
+
+
+#Podclass {
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+   .progimg {
+       border-radius: 3%;
+   }
+
+   .progsubtitle {
+       font-family: 'Times New Roman', Times, serif;
+   }
+
+
+
+/* NavBar */
+
+            .navbar {
+                background: #ffffff;
+
+            }
+
+            .navbar-background {
+                padding: 2px 20px;
+            }
+
+            .navbar-brand {
+                color: #000000;
+                border: 3px solid transparent;
+                font-size: 22px;
+            }
+
+            .navbar-brand:hover {
+                background: transparent;
+                color: #279cb9;
+            }
+
+            .navbar-toggler {
+                border: 3px solid transparent;
+                padding: 3px;
+
+            }
+
+            .logo {
+                width: 80px;
+                cursor: pointer;
+                padding-right: 10px;
+            }
+
+            .bar1,
+            .bar2,
+            .bar3 {
+                width: 23px;
+                height: 3px;
+                margin: 5px;
+                background: #279cb9;
+
+            }
+            .change .bar1 {
+                transform: rotate(-45deg) translate(-5px, 6px);
+            }
+
+            .change .bar2 {
+                opacity: 0;
+            }
+
+            .change .bar3 {
+                transform: rotate(45deg) translate(-5px, -8px);
+            }
+
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+
+            .dropdown-menu {
+                background: #fff;
+                color: #fff;
+            }
+
+            .dropdown-item {
+                color: #279cb9;
+
+            }
+
+            .nav-link {
+                color: #279cb9;
+                font-size: 25px;
+                padding: 10px 20px !important;
+                border-radius: 5px;
+                left: 50%;
+            }
+
+
+            .nav-link:hover {
+                background: #279cb9;
+                color: #f1fffa;
+
+            }
+
+            .nav-active:hover {
+                background: #279cb9;
+            }
+
+/* NavBar End */
+
+
+
+/* Responsive CSS */
+
+
+
+
+.companylogo {
+    width: 150px;
+    padding-top: 20px;
+}
+
+
+
+
+
+/* Footer */
+
+            .footer {
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                padding-top: 100px;
+            }
+
+/* Footer end */
+

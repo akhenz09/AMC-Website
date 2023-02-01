@@ -1,0 +1,274 @@
+/*** Team ***/
+
+.vidheading {
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+.headerTutor {
+  text-align: center;
+  margin: auto;
+  max-width: 50vh;
+  padding-block: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed var(--primary);
+  color: var(--primary);
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+.headerTeam {
+  text-align: center;
+  margin: auto;
+  max-width: 50vh;
+  padding-block: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px dashed var(--primary);
+  color: var(--primary);
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+.teamsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(135deg, rgb(240, 162, 45) 0%, rgb(221, 224, 42) 40%, rgb(255, 145, 0) 100%);
+  padding-top: 50px;
+  
+}
+
+.team {
+  width: 280px;
+  height: 450px;
+  overflow: hidden;
+  margin: 8px;
+  border: 2px solid var(--primary);
+  border-radius: 16px;
+  position: relative;
+  background-color: #ffffff34;
+}
+
+.team::before {
+  content: '';
+  background-image: var(--img);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  filter: blur(4px) grayscale(100%);
+}
+
+.team img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 450px;
+  border-radius: 16px;
+  z-index: 3;
+  object-fit: cover;
+  border: none;
+}
+
+.team:hover img {
+  width: 160px;
+  height: 190px;
+  border: 2px solid var(--primary);
+  left: 60px;
+  top: 20px;
+}
+
+.team .info {
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: #363636;
+  padding: 16px;
+  border-top: 8px solid var(--primary);
+  border-radius: 50% 50% 0px 0px;
+  padding-top: 80px;
+  text-align: center;
+  transform: scale(2)
+}
+
+.team .name {
+  font-size: 24px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.nameJan {
+  font-size: 24px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.team .title {
+  font-size: 15px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.titleJan {
+  font-size: 11.5px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.team:hover .info {
+  transform: scale(1)
+}
+
+.team .social {
+  padding-block: 10px;
+  font-size: 24px;
+}
+
+.team .social i {
+  display: inline-block;
+  width: 30px;
+  padding: 2px;
+  background-color: #ededed;
+  border-radius: 16px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.team .social i:hover {
+  color: var(--primary);
+  background-color: #363636;
+
+}
+
+
+.teamsectionpodcaster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  
+}
+
+.teampodcaster {
+  width: 280px;
+  height: 450px;
+  overflow: hidden;
+  margin: 8px;
+  border: 2px solid var(--primary);
+  border-radius: 16px;
+  position: relative;
+  background-color: #ffffff34;
+}
+
+.teampodcaster::before {
+  content: '';
+  background-image: var(--img);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  filter: blur(4px) grayscale(100%);
+}
+
+.teampodcaster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 450px;
+  border-radius: 16px;
+  z-index: 3;
+  object-fit: cover;
+  border: none;
+}
+
+.teampodcaster:hover img {
+  width: 160px;
+  height: 190px;
+  border: 2px solid var(--primary);
+  left: 60px;
+  top: 20px;
+}
+
+.teampodcaster .info {
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: #363636;
+  padding: 16px;
+  border-top: 8px solid var(--primary);
+  border-radius: 50% 50% 0px 0px;
+  padding-top: 80px;
+  text-align: center;
+  transform: scale(2)
+}
+
+.teampodcaster .name {
+  font-size: 24px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.nameJanpodcaster {
+  font-size: 24px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.teampodcaster .title {
+  font-size: 15px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.titleJanpodcaster {
+  font-size: 11.5px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.teampodcaster:hover .info {
+  transform: scale(1)
+}
+
+.teampodcaster .social {
+  padding-block: 10px;
+  font-size: 24px;
+}
+
+.teampodcaster .social i {
+  display: inline-block;
+  width: 30px;
+  padding: 2px;
+  background-color: #ededed;
+  border-radius: 16px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.teampodcaster .social i:hover {
+  color: var(--primary);
+  background-color: #363636;
+
+}
+/*** Team end ***/

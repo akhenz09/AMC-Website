@@ -1,0 +1,175 @@
+.ProgramsHeading {
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Subscription-Program {
+    padding-top: 100px;
+    background: linear-gradient(135deg, rgb(240, 162, 45) 0%, rgb(221, 224, 42) 40%, rgb(255, 145, 0) 100%);
+}
+
+
+/* Aboutprogramfeature */
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #000000;
+}
+
+.abouthome {
+    width: 100%;
+	padding: 100px 0px;
+	background-color: transparent;
+}
+
+.about img{
+	height: auto;
+	width: 430px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	margin-bottom: 20px;
+
+}
+
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+
+
+}
+
+.column-left {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .column-right {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.about-texthome h2 {
+    color: rgb(5, 5, 5);
+	font-size: 75px;
+	margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.about-texthome h5{
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+
+
+}
+
+
+.about-text p{
+	color:  #191919;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.about-texthome p{
+	color:  #191919;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.homeimage {
+    height: 700px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-two{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+
+.btnabout{
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.btnabout:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+/* Aboutprogramfeatureend */
+
+
+.p_iframe iframe {
+    width: 100%;
+    height: 600px;
+}
+.p_iframe {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+

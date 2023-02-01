@@ -17,59 +17,78 @@ use App\Http\Controllers\PaymentController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('/Landingpage/home');
 });
-Route::get('/home', function () {
-    return view('home');
+
+Route::get('home', function () {
+    return view('/Landingpage/home');
 });
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    return view('/Welcome/welcome');
+});
+
+Route::get('/brochure', function () {
+    return view('/Welcome/brochure');
 });
 
 Route::get('/News & Announcement', function () {
-    return view('News & Announcement');
+    return view('/Frontend/News & Announcement');
 });
 
 Route::get('/Reviews & Testimonials', function () {
-    return view('Reviews & Testimonials');
+    return view('/Frontend/Reviews & Testimonials');
 });
 
 Route::get('/Our Team', function () {
-    return view('Our Team');
+    return view('/OurTeam/Our Team');
 });
 
 Route::get('/Mission', function () {
-    return view('Mission');
+    return view('/Frontend/Mission');
 });
 
 Route::get('/Vision', function () {
-    return view('Vision');
+    return view('/Frontend/Vision');
 });
 
 Route::get('/Programs Features', function () {
-    return view('Programs Features');
+    return view('/Frontend/Programs Features');
 });
 
 Route::get('/Programs', function () {
-    return view('Programs');
+    return view('/Programs/Programs');
+});
+
+Route::get('/Exam', function () {
+    return view('/Programs/Exam');
+});
+
+Route::get('/paymentqr', function () {
+    return view('/Enroll Now/paymentqr');
 });
 
 Route::get('/Programs Features item', function () {
-    return view('Programs Features item');
+    return view('/Dashboard/Programs Features item');
 });
 
 Route::get('/Programs item', function () {
-    return view('Programs item');
+    return view('/Dashboard/Programs item');
 });
 
 Route::get('/Signup', function () {
-    return view('Signup');
+    return view('/Frontend/Signup');
 });
 
 Route::get('/subscribe', function () {
-    return view('subscribe');
+    return view('Enroll Now/subscribe');
 });
+
+Route::get('/Dashboard', function () {
+    return view('/Dashboard/Dashboard');
+});
+
+
 
 Route::post('/acceptRegistration', [userController::class, 'saveRegistration'])->name('saveRegistration');
 
@@ -89,11 +108,12 @@ Route::get('/editItem/{id}', [itemController::class, 'editItem'])->name('itemRec
 
 Route::post('/updateItem/{id}', [itemController::class, 'updateItem'])->name('itemRecords.updateItem');
 
-Route::post('/deleteItem/{id}', [itemController::class, 'deleteItem'])->name('itemRecords.deleteItem');
+Route::get('/deleteItem/{id}', [itemController::class, 'deleteItem'])->name('itemRecords.deleteItem');
 
 Route::get('payment', function(Request $request){
-    return view('payment');
+    return view('Enroll Now/payment');
 });
+
 
 // Paymongo Routes
 Route::controller(PaymentController::class)->group(function () {
